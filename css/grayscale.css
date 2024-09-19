@@ -50,7 +50,7 @@ p {
 }
 
 a {
-  color: #42dca3;
+  color: #ffffff;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -59,7 +59,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #ffffff;
 }
 
 .light {
@@ -265,15 +265,15 @@ a:focus {
 }
 
 .content-section {
-  padding-top: 100px;
+  /* padding-top: 100px; */
 }
 
 .download-section {
   width: 100%;
-  padding: 50px 0;
+  /* padding: 50px 0; */
   color: #fff;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-  background-color: #000;
+  /* background: url(../img/downloads-bg.jpg) no-repeat center center scroll; */
+  background-color: #043873;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -288,11 +288,11 @@ a:focus {
 
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 250px;
+    /* padding-top: 250px; */
   }
 
   .download-section {
-    padding: 100px 0;
+    /* padding: 100px 0; */
   }
 
   #map {
@@ -377,4 +377,100 @@ img::-moz-selection {
 
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+
+/* aaaaaaaaaaaaaaaaaaaaaaaaa */
+/* 
+.horizontal-scroll-wrapper {
+  width: 100px;
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.horizontal-scroll-wrapper > div {
+  width: 100px;
+  height: 100px;
+}
+
+.horizontal-scroll-wrapper {
+  transform: rotate(-90deg);
+  transform-origin: right top;
+}
+
+.horizontal-scroll-wrapper > div {
+  transform: rotate(90deg);
+  transform-origin: right top;
+}
+
+.horizontal-scroll-wrapper {
+  transform: rotate(-90deg) translateY(-100px);
+} */
+
+/* aaaaaaaaaaaaaaaa */
+
+/* $finalHeight: 250px;
+$finalWidth: 3 * $finalHeight;
+$scrollBarHeight: 1px;
+
+::-webkit-scrollbar {
+  width: $scrollBarHeight;
+  height: $scrollBarHeight;
+}
+
+::-webkit-scrollbar-button {
+  width: $scrollBarHeight;
+  height: $scrollBarHeight;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.horizontal-scroll-wrapper {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: calc(#{$finalHeight} + #{$scrollBarHeight});
+  max-height: $finalWidth;
+  margin: 0;
+  padding-top: $scrollBarHeight;
+  background: #abc;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transform: rotate(-90deg) translateY(-$finalHeight);
+  transform-origin: right top;
+  & > div {
+    display: block;
+    padding: 5px;
+    background: #cab;
+    transform: rotate(90deg);
+    transform-origin: right top;
+  }
+}
+
+.squares {
+  padding: $finalHeight 0 0 0;
+  & > div {
+    width: $finalHeight;
+    height: $finalHeight;
+    margin: 10px 0;
+  }
+} */
+
+.container_scrollaaa {
+  /* width: 100vw; */
+  /* height: 40vh; */
+  overflow-y: scroll;
+
+  transform: rotate(-90deg);
+}
+
+.content_scrollaaa {
+  /* width: 140px;
+  height: 140px; */
+  margin: 10px;
+
+  transform: rotate(90deg);
 }
