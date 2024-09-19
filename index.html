@@ -32,6 +32,9 @@
       type="text/css"
     />
 
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="./img/logo.png" type="image/png">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -40,7 +43,186 @@
     <![endif]-->
 
     <style>
+      
       @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+    
+    .page-5{
+             background-color: #043873; 
+             color: #e8e8e8;
+           
+             padding-bottom: 100px;
+             padding-left: 100px;
+             padding-left: 100px;
+
+            }
+
+            .page-5 .page-about{
+              margin-top: 100px;
+            
+            }
+
+            .about-page-img img{
+              width: 350px;
+              height: 250px;
+              text-align: center;
+              filter: drop-shadow(1px 1px 10px black);
+              margin-left: 500px;
+            }
+
+            .about-img{
+              padding: 0px;
+              margin: 0px;
+            }
+
+            .about-page-section{
+              text-align: center;
+            }
+
+            .page-map{
+              text-align: center;
+            }
+
+            .page-form{
+              text-align: center;
+            }
+
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #0056b3;
+        }
+
+
+
+         
+            .footer {
+              background-color: #ffffff;
+              
+              font-family: Arial, sans-serif;
+              color: #333;
+              display: flex;
+              justify-content: space-between;
+              margin-left: 70px;
+              margin-right: 70px;
+              padding-top: 50px;
+              padding-bottom: 50px;
+            }
+
+            .footer-logo {
+              display: flex;
+              align-items: center;
+
+              
+            }
+            .footer-logo img {
+              width: 100px; /* Adjust as per your logo's dimensions */
+              filter: drop-shadow(1px 1px 10px black);
+            }
+
+            .footer-section {
+              display: flex;
+              flex-direction: column;
+            }
+            .footer-section h3 {
+              margin-bottom: 10px;
+            }
+            .footer-section ul {
+              list-style-type: none;
+              padding-left: 0;
+            }
+            .footer-section ul li {
+              margin-bottom: 5px;
+              text-decoration: none;
+              cursor: pointer;
+              color: black; /* Bootstrap primary color */
+              
+            }
+
+            .footer-section ul li a {
+              margin-bottom: 5px;
+              text-decoration: none;
+              cursor: pointer;
+              color: inherit; /* Bootstrap primary color */
+              
+            }
+
+
+            .footer-section ul li a:hover {
+              color: #ffa616; /* Optional: Changes color when you hover over the link */
+            }
+            .footer-contact {
+              text-align: right;
+            }
+
+            .footer-contact p {
+              margin: 5px 0;
+            }
+            .footer-contact .social-icons img {
+              width: 20px; /* Adjust as per your icon's dimensions */
+              margin-right: 10px;
+              margin-right: 40px;
+            }
+
+
+            .footer-contact  .social-icons a:last-child img {
+                  margin-right: 0; /* Removes extra space after the last image */
+              }
+
+            .footer-copyright {
+              text-align: center;
+              margin-top: 20px;
+              font-size: 14px;
+              color: #201d1d;
+            }
+
+            .stragiht-line{
+             
+            
+            color: black;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+            margin-left: 6em;
+            margin-right: 6em;
+            border-width: 10px;
+ 
+            }
+
+            .social-icons{
+              
+              gap : 20px;
+              margin-right: 120px;
+              
+            }
+            .vertical-line {
+              width: 1px; /* Adjust the thickness of the line */
+              height: 120px; /* Set the height of the vertical line */
+              background-color: black; /* Color of the line */
+              border: none; /* Remove the default border of the <hr> tag */
+            }
+
+           
     </style>
   </head>
 
@@ -573,15 +755,148 @@
       </div>
     </section>
 
-    <!-- Map Section -->
-    <div id="map"></div>
+    <br>
+
+
+    <section class="page-5" id="page-5">
+      
+        <section class="page-about" id="page-about">
+              <div class="about-page" id="about-page">
+                   <div class="about-page-img" id="about-page-img">
+                        <img src="./img/Group 342.svg">
+                        
+                   </div>
+                   <br>
+                   <!-- <div class="about-img" id="about-img">
+                       
+                   </div> -->
+                   <div class="about-page-section">
+                        <p> Study Wave Private Limited was founded in 2024 with the intense to offer quality guidance and
+                          ethical support to the tutees who wanted to pursue their upcoming studies in foreign countries.
+                          We have certified and qualified consultants and tutor with experience of more than two
+                          decades. We offer various test preparation classes and pay personal guidance to be needy.
+                        </p>
+
+                        <br>
+                        <br>
+                        <h2> Our Vision</h2>
+                        <p>“To embark and enhance educational institution by providing transformative guidance along
+                          with innovative solution.”</p>
+<br>
+
+                        
+                   </div>
+              </div>
+
+
+        </section>
+
+        <br>
+        <br>
+
+        <section class="page-map" id="page-map"> 
+          <h1> Find Us...</h1> <br>
+          
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d835.3764976668888!2d83.98836356958196!3d28.22409719849317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x445c7d411efaebf3%3A0xb02e42f3d0c73733!2sSTUDY%20WAVE%20PVT%20LTD!5e1!3m2!1sen!2snp!4v1724789958072!5m2!1sen!2snp" 
+            width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+          </div>
+          <br>
+          <br>
+          <br>
+
+          <img src="./img/map-marker.png">  <p>Chipledunga, Pokhara (next to NMB) </p>
+        </section>
+
+
+        <br>
+        <br>
+       
+        <section class="page-form" id="page-form">
+          <form class="contact-form">
+            <h2> Send Your Query</h2>
+
+            <span>Name</span>
+
+            <input type="text" placeholder="Name" required>
+
+            <span>Email</span>
+
+            <input type="email" placeholder="Email" required>
+
+            <span>Phone N.O.</span>
+
+            <input type="Number" placeholder="Number" required>
+
+            <span> Subject</span>
+
+            <input type="text" placeholder="Subject" required>
+
+            <span>Message</span>
+
+            <textarea placeholder="Message" required></textarea>
+
+            <button type="submit">SEND</button>
+
+        </form>
+        </section>
+    </section>
+ 
 
     <!-- Footer -->
-    <footer>
-      <div class="container text-center">
-        <p>Copyright &copy; Your Website 2014</p>
+    <footer class="footer">
+      <div class="footer-logo">
+        <img src="./img/logo.png" alt="Study Wave Logo"> <!-- Replace with your logo path -->
+       
       </div>
-    </footer>
+      <hr class="vertical-line">
+
+      <div class="footer-section">
+        <h3>Study Abroad</h3>
+        <ul>
+          <a href="#" ><li>Services</li></a>
+          <a href="#" ><li>Pricing</li></a>
+          <a href="#" ><li>Test Preparation</li></a>
+         
+        </ul>
+      </div>
+
+      <hr class="vertical-line">
+
+      <div class="footer-section">
+        <h3>Company</h3>
+        <ul>
+          <a href="#" ><li>About Us</li></a>
+          <a href="#" ><li>Careers</li></a>
+          
+    </ul>
+      </div>
+
+      <hr class="vertical-line">
+
+  <div class="footer-contact">
+    <p> Email: studywave2@gmail.com</p>
+    <br>
+    <div class="social-icons">
+      
+      <a href="https://www.facebook.com/people/STUDY-WAVE/61560049887297/?_rdr"> <img src="./img/_x30_1._Facebook.svg"> </a>
+      <a href="href="https://wa.me/9856019724" target=""><img src="./img/whatsapp.svg"></a>
+      <a href="https://www.instagram.com/studywave123/"><img src="./img/insta.svg"></a>
+    </div>
+  </div>
+</footer>
+<br>
+
+<hr class="stragiht-line" style="border: 0.5px solid #201d1d;">
+
+<div class="footer-copyright">
+  ©2021 Study Wave
+</div>
+
+<br>
+
+
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
