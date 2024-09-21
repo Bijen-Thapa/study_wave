@@ -33,7 +33,7 @@
     />
 
     <!-- Favicon-->
-    <link rel="shortcut icon" href="./img/logo.png" type="image/png">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/png" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,187 +43,166 @@
     <![endif]-->
 
     <style>
-      
       @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
-    
-    .page-5{
-             background-color: #043873; 
-             color: #e8e8e8;
-           
-             padding-bottom: 100px;
-             padding-left: 100px;
-             padding-left: 100px;
 
-            }
+      .about {
+        background-color: #064083;
+        color: #e8e8e8;
 
-            .page-5 .page-about{
-              margin-top: 100px;
-            
-            }
+        padding-bottom: 100px;
+      }
 
-            .about-page-img img{
-              width: 350px;
-              height: 250px;
-              text-align: center;
-              filter: drop-shadow(1px 1px 10px black);
-              margin-left: 500px;
-            }
+      .about .page-about {
+        /* margin-top: 100px; */
+      }
 
-            .about-img{
-              padding: 0px;
-              margin: 0px;
-            }
+      .about-page-img img {
+        width: 350px;
+        height: 250px;
+        text-align: center;
+        filter: drop-shadow(1px 1px 10px black);
+        margin-left: 500px;
+      }
 
-            .about-page-section{
-              text-align: center;
-            }
+      .about-img {
+        padding: 0px;
+        margin: 0px;
+      }
 
-            .page-map{
-              text-align: center;
-            }
+      .about-page-section {
+        text-align: left;
+      }
 
-            .page-form{
-              text-align: center;
-            }
+      .page-map {
+        text-align: center;
+      }
 
+      .page-form {
+        text-align: none;
+      }
 
-        .contact-form {
-            display: flex;
-            flex-direction: column;
-            width: 60%;
-        }
+      .contact-form {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+      }
 
-        .contact-form input,
-        .contact-form textarea {
-            margin-bottom: 10px;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-        }
+      .contact-form input,
+      .contact-form textarea {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+      }
 
-        .contact-form button {
-            padding: 10px;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
+      .contact-form button {
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
 
-        .contact-form button:hover {
-            background-color: #0056b3;
-        }
+      .contact-form button:hover {
+        background-color: #0056b3;
+      }
 
+      .footer {
+        background-color: #ffffff;
 
+        font-family: Arial, sans-serif;
+        color: #333;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 70px;
+        margin-right: 70px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
 
-         
-            .footer {
-              background-color: #ffffff;
-              
-              font-family: Arial, sans-serif;
-              color: #333;
-              display: flex;
-              justify-content: space-between;
-              margin-left: 70px;
-              margin-right: 70px;
-              padding-top: 50px;
-              padding-bottom: 50px;
-            }
+      .footer-logo {
+        display: flex;
+        align-items: center;
+      }
+      .footer-logo img {
+        width: 100px; /* Adjust as per your logo's dimensions */
+        filter: drop-shadow(1px 1px 10px black);
+      }
 
-            .footer-logo {
-              display: flex;
-              align-items: center;
+      .footer-section {
+        display: flex;
+        flex-direction: column;
+      }
+      .footer-section h3 {
+        margin-bottom: 10px;
+      }
+      .footer-section ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+      .footer-section ul li {
+        margin-bottom: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        color: black; /* Bootstrap primary color */
+      }
 
-              
-            }
-            .footer-logo img {
-              width: 100px; /* Adjust as per your logo's dimensions */
-              filter: drop-shadow(1px 1px 10px black);
-            }
+      .footer-section ul li a {
+        margin-bottom: 5px;
+        text-decoration: none;
+        cursor: pointer;
+        color: inherit; /* Bootstrap primary color */
+      }
 
-            .footer-section {
-              display: flex;
-              flex-direction: column;
-            }
-            .footer-section h3 {
-              margin-bottom: 10px;
-            }
-            .footer-section ul {
-              list-style-type: none;
-              padding-left: 0;
-            }
-            .footer-section ul li {
-              margin-bottom: 5px;
-              text-decoration: none;
-              cursor: pointer;
-              color: black; /* Bootstrap primary color */
-              
-            }
+      .footer-section ul li a:hover {
+        color: #ffa616; /* Optional: Changes color when you hover over the link */
+      }
+      .footer-contact {
+        text-align: right;
+      }
 
-            .footer-section ul li a {
-              margin-bottom: 5px;
-              text-decoration: none;
-              cursor: pointer;
-              color: inherit; /* Bootstrap primary color */
-              
-            }
+      .footer-contact p {
+        margin: 5px 0;
+      }
+      .footer-contact .social-icons img {
+        width: 20px; /* Adjust as per your icon's dimensions */
+        margin-right: 10px;
+        margin-right: 40px;
+      }
 
+      .footer-contact .social-icons a:last-child img {
+        margin-right: 0; /* Removes extra space after the last image */
+      }
 
-            .footer-section ul li a:hover {
-              color: #ffa616; /* Optional: Changes color when you hover over the link */
-            }
-            .footer-contact {
-              text-align: right;
-            }
+      .footer-copyright {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 14px;
+        color: #201d1d;
+      }
 
-            .footer-contact p {
-              margin: 5px 0;
-            }
-            .footer-contact .social-icons img {
-              width: 20px; /* Adjust as per your icon's dimensions */
-              margin-right: 10px;
-              margin-right: 40px;
-            }
+      .stragiht-line {
+        color: black;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: 6em;
+        margin-right: 6em;
+        border-width: 10px;
+      }
 
-
-            .footer-contact  .social-icons a:last-child img {
-                  margin-right: 0; /* Removes extra space after the last image */
-              }
-
-            .footer-copyright {
-              text-align: center;
-              margin-top: 20px;
-              font-size: 14px;
-              color: #201d1d;
-            }
-
-            .stragiht-line{
-             
-            
-            color: black;
-            margin-top: 0.5em;
-            margin-bottom: 0.5em;
-            margin-left: 6em;
-            margin-right: 6em;
-            border-width: 10px;
- 
-            }
-
-            .social-icons{
-              
-              gap : 20px;
-              margin-right: 120px;
-              
-            }
-            .vertical-line {
-              width: 1px; /* Adjust the thickness of the line */
-              height: 120px; /* Set the height of the vertical line */
-              background-color: black; /* Color of the line */
-              border: none; /* Remove the default border of the <hr> tag */
-            }
-
-           
+      .social-icons {
+        gap: 20px;
+        /* margin-right: 120px; */
+      }
+      .vertical-line {
+        width: 1px; /* Adjust the thickness of the line */
+        height: 120px; /* Set the height of the vertical line */
+        background-color: black; /* Color of the line */
+        border: none; /* Remove the default border of the <hr> tag */
+      }
     </style>
+    <script type="text/javascript" src="./js/script.js"></script>
   </head>
 
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -264,13 +243,19 @@
               <a href="#page-top"></a>
             </li>
             <li>
-              <a class="page-scroll" href="#about">Our Services</a>
+              <a class="page-scroll" href="#services">Our Services</a>
             </li>
             <li>
-              <a class="page-scroll" href="#download">Study Abroad</a>
+              <a class="page-scroll" href="#abroad">Study Abroad</a>
             </li>
             <li>
-              <a class="page-scroll" href="#contact">Class Prices</a>
+              <a class="page-scroll" href="#prices">Class Prices</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#about">About Us</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#page-form">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -285,7 +270,13 @@
         <img
           src="./img/Element.svg"
           alt=""
-          style="z-index: 0; position: absolute; margin-left: -800px"
+          style="
+            z-index: 0;
+            position: absolute;
+            margin-left: -777px;
+            width: 100vw;
+          "
+          class="element"
         />
         <div class="container">
           <div class="row" style="display: flex; align-items: center">
@@ -295,7 +286,6 @@
                 display: flex;
                 flex-direction: column;
                 align-items: flex-start;
-                mar
               "
             >
               <br />
@@ -313,22 +303,36 @@
                 The future you think is closer then you think! <br />Join Study
                 Wave family for your upcoming advantures...
               </p>
-              <a href="#about">
+              <!-- <div style="align-items: start">
+                <h4 style="text-transform: none">
+                  Our Vision:
+                  <p style="font-weight: 10">
+                    “To embark and enhance educational institution by providing
+                    transformative guidance along with innovative solution.”
+                  </p>
+                </h4>
+              </div> -->
+
+              <a
+                href="#page-form"
+                class="navbar-brand page-scroll"
+                style="float: none; font-size: inherit; padding: 0"
+              >
                 <!-- <i class="fa fa-angle-double-down animated"></i> -->
                 <button
                   type="button"
                   class="btn btn-secondary btn-lg"
-                  style="
-                    background-color: #ffa616;
-                    border-radius: 1rem;
-                    font-;
-                  "
+                  style="background-color: #ffa616; border-radius: 1rem"
                 >
                   Contact Us<i class="fa-solid fa-arrow-right-long"></i>
                 </button>
               </a>
             </div>
-            <div style="display: flex; flex-direction: column">
+            <div
+              style="display: flex; flex-direction: column; margin-left: -110px"
+              id="home_div2"
+              class="home_div2"
+            >
               <h1
                 style="
                   font-family: 'Dancing Script', cursive;
@@ -376,22 +380,14 @@
       </div>
     </header>
 
-    <!-- About Section -->
+    <!-- services Section -->
     <section
-      id="about"
+      id="services"
       class="container content-section text-center"
       style="padding-top: 100px; padding-bottom: 100px"
     >
-      <div
-        class="parent"
-        style="
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          grid-template-rows: repeat(2, 1fr);
-          grid-column-gap: 15px;
-          grid-row-gap: 15px;
-        "
-      >
+      <h1 style="text-transform: none">Our Services</h1>
+      <div class="parent" style="">
         <div class="div1" style="grid-area: 1 / 1 / 2 / 2">
           <div
             style="
@@ -411,9 +407,10 @@
             <div style="">
               <img src="./img/book.svg" alt="" style="width: 7rem" />
             </div>
-            <h3>IELTS/PTE</h3>
+            <h3>IELTS/PTEl/TOEFL</h3>
             <p>
-              Career counseling focuses on your current skills and helps you....
+              Provide students with different options to choose their path and
+              ....
             </p>
           </div>
         </div>
@@ -432,13 +429,15 @@
               border: 2rem;
               border-color: black;
             "
+            onclick=""
           >
             <div style="">
               <img src="./img/convo.svg" alt="" style="width: 7rem" />
             </div>
             <h3 style="text-transform: none">Career Counseling</h3>
             <p>
-              Career counseling focuses on your current skills and helps you....
+              Career counseling focuses on your current skills and helps you
+              ....
             </p>
           </div>
         </div>
@@ -461,9 +460,10 @@
             <div style="">
               <img src="./img/test.svg" alt="" style="width: 7rem" />
             </div>
-            <h3 style="text-transform: none">Test Preperation</h3>
+            <h3 style="text-transform: none">Test Preparation</h3>
             <p>
-              Career counseling focuses on your current skills and helps you....
+              Preparing students for the English language test in a guided
+              environment ...
             </p>
           </div>
         </div>
@@ -486,9 +486,10 @@
             <div style="">
               <img src="./img/visa.svg" alt="" style="width: 7rem" />
             </div>
-            <h3 style="text-transform: none">VISA Preperation</h3>
+            <h3 style="text-transform: none">VISA Preparation</h3>
             <p>
-              Career counseling focuses on your current skills and helps you....
+              After all the academic and financial work is done, <br />
+              next comes ....
             </p>
           </div>
         </div>
@@ -664,10 +665,18 @@
       </div> -->
     </section>
 
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
-      <div class="download-section">
-        <div class="container" style="display: flex; justify-content: center">
+    <!-- abroad Section -->
+    <section id="abroad" class="content-section text-center">
+      <div class="abroad-section" style="background-color: #064083">
+        <div
+          class="container"
+          style="
+            display: flex;
+            justify-content: center;
+            padding: 150px 0;
+            background-color: #064083;
+          "
+        >
           <div class="col-lg-8 col-lg-offset-2">
             <h1 style="text-transform: none">
               Explore <br />
@@ -675,24 +684,55 @@
             </h1>
             <p>
               Take your future to the
-              <span style="color: #ffa616">next level</span>, <br />
-              to the <span style="color: #ffa616">next county</span>, <br />
+              <span
+                style="
+                  color: #ffa616;
+                  font-weight: 700;
+                  text-transform: capitalize;
+                "
+                >next level</span
+              >,
+              <br />
+              to the
+              <span
+                style="
+                  color: #ffa616;
+                  font-weight: 700;
+                  text-transform: capitalize;
+                "
+                >next county</span
+              >, <br />
               with us you are provided with varieties of options to choose
               from...
             </p>
 
-            <div class="container_scrollaaa">
+            <div class="container_scrollaaa" style="">
               <div class="content_scrollaaa">
                 <img src="./img/usa.svg" alt="" />
               </div>
               <div class="content_scrollaaa">
-                <img src="./img/usa.svg" alt="" />
+                <img src="./img/uk.svg" alt="" />
               </div>
               <div class="content_scrollaaa">
-                <img src="./img/usa.svg" alt="" />
+                <img src="./img/canada.svg" alt="" />
               </div>
               <div class="content_scrollaaa">
-                <img src="./img/usa.svg" alt="" />
+                <img src="./img/Australia.svg" alt="" />
+              </div>
+              <div class="content_scrollaaa">
+                <img src="./img/newzealand.svg" alt="" />
+              </div>
+              <div class="content_scrollaaa">
+                <img src="./img/ireland.svg" alt="" />
+              </div>
+              <div class="content_scrollaaa">
+                <img src="./img/dubai.svg" alt="" />
+              </div>
+              <div class="content_scrollaaa">
+                <img src="./img/india.svg" alt="" />
+              </div>
+              <div class="content_scrollaaa">
+                <img src="./img/korea.svg" alt="" />
               </div>
             </div>
             <!-- <h2>Download Grayscale</h2>
@@ -710,193 +750,376 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <h2>Contact Start Bootstrap</h2>
-          <p>
-            Feel free to email us to provide some feedback on our templates,
-            give us suggestions for new templates and themes, or to just say
-            hello!
-          </p>
-          <p>
-            <a href="mailto:feedback@startbootstrap.com"
-              >feedback@startbootstrap.com</a
-            >
-          </p>
-          <ul class="list-inline banner-social-buttons">
-            <li>
-              <a
-                href="https://twitter.com/SBootstrap"
-                class="btn btn-default btn-lg"
-                ><i class="fa fa-twitter fa-fw"></i>
-                <span class="network-name">Twitter</span></a
-              >
-            </li>
-            <li>
-              <a
-                href="https://github.com/IronSummitMedia/startbootstrap"
-                class="btn btn-default btn-lg"
-                ><i class="fa fa-github fa-fw"></i>
-                <span class="network-name">Github</span></a
-              >
-            </li>
-            <li>
-              <a
-                href="https://plus.google.com/+Startbootstrap/posts"
-                class="btn btn-default btn-lg"
-                ><i class="fa fa-google-plus fa-fw"></i>
-                <span class="network-name">Google+</span></a
-              >
-            </li>
-          </ul>
+    <!-- prices Section -->
+    <section
+      id="prices"
+      class="container content-section text-center"
+      style="padding: 0px 0; margin: 0"
+    >
+      <div class="row" style="display: flex; justify-content: center">
+        <div
+          class="col-lg-8 col-lg-offset-2"
+          style="
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-top: 80px;
+          "
+        >
+          <h1 style="text-transform: none; margin-left: 350px">Class Prices</h1>
+
+          <div
+            style="
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              grid-template-rows: 1fr;
+              grid-column-gap: 0px;
+              grid-row-gap: 0px;
+              align-items: center;
+            "
+          >
+            <img
+              src="./img/ielts.svg"
+              alt=""
+              style="grid-area: 1 / 1 / 3 / 2; margin-right: -126px"
+            />
+
+            <img
+              src="./img/pte.svg"
+              alt=""
+              style="grid-area: 1 / 2 / 2 / 3; margin-bottom: -50px"
+            />
+
+            <img
+              src="./img/toefl.svg"
+              alt=""
+              style="grid-area: 2 / 2 / 3 / 3"
+            />
+          </div>
         </div>
       </div>
     </section>
 
-    <br>
-
-
-    <section class="page-5" id="page-5">
-      
+    <section class="about" id="about" style="padding: 75px 0">
+      <h1 style="text-align: center">About Us</h1>
+      <div style="display: flex; padding: 0 150px">
         <section class="page-about" id="page-about">
-              <div class="about-page" id="about-page">
-                   <div class="about-page-img" id="about-page-img">
-                        <img src="./img/Group 342.svg">
-                        
-                   </div>
-                   <br>
-                   <!-- <div class="about-img" id="about-img">
+          <div class="about-page" id="about-page">
+            <!--  class="about-page-img" id="about-page-img" -->
+
+            <div>
+              <img src="./img/about_logo.svg" />
+            </div>
+            <br />
+            <!-- <div class="about-img" id="about-img">
                        
                    </div> -->
-                   <div class="about-page-section">
-                        <p> Study Wave Private Limited was founded in 2024 with the intense to offer quality guidance and
-                          ethical support to the tutees who wanted to pursue their upcoming studies in foreign countries.
-                          We have certified and qualified consultants and tutor with experience of more than two
-                          decades. We offer various test preparation classes and pay personal guidance to be needy.
-                        </p>
+            <div class="about-page-section">
+              <p style="text-wrap: balance">
+                Study Wave Private Limited was established with the goal of
+                providing students who wished to continue their future studies
+                abroad with high-quality advice and moral support. With over 20
+                years of expertise, our consultants and tutors are qualified and
+                certified. We provide different test-preparation courses and
+                offer one-on-one counseling to those in need.
+              </p>
 
-                        <br>
-                        <br>
-                        <h2> Our Vision</h2>
-                        <p>“To embark and enhance educational institution by providing transformative guidance along
-                          with innovative solution.”</p>
-<br>
-
-                        
-                   </div>
-              </div>
-
-
-        </section>
-
-        <br>
-        <br>
-
-        <section class="page-map" id="page-map"> 
-          <h1> Find Us...</h1> <br>
-          
-          <div class="map-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d835.3764976668888!2d83.98836356958196!3d28.22409719849317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x445c7d411efaebf3%3A0xb02e42f3d0c73733!2sSTUDY%20WAVE%20PVT%20LTD!5e1!3m2!1sen!2snp!4v1724789958072!5m2!1sen!2snp" 
-            width="700" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-          </iframe>
+              <br />
+              <br />
+              <h2>Our Vision</h2>
+              <p>
+                “To embark and enhance educational institution by providing
+                transformative guidance along with innovative solution.”
+              </p>
+              <br />
+            </div>
           </div>
-          <br>
-          <br>
-          <br>
-
-          <img src="./img/map-marker.png">  <p>Chipledunga, Pokhara (next to NMB) </p>
         </section>
 
+        <br />
+        <br />
 
-        <br>
-        <br>
-       
-        <section class="page-form" id="page-form">
-          <form class="contact-form">
-            <h2> Send Your Query</h2>
+        <section class="page-map" id="page-map" style="text-align: start">
+          <!-- <h1 style="text-transform: none">Find Us...</h1> -->
+          <br />
 
-            <span>Name</span>
+          <div class="map-container">
+            <!-- <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d835.3764976668888!2d83.98836356958196!3d28.22409719849317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x445c7d411efaebf3%3A0xb02e42f3d0c73733!2sSTUDY%20WAVE%20PVT%20LTD!5e1!3m2!1sen!2snp!4v1724789958072!5m2!1sen!2snp"
+            width="700"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            >
+          </iframe> -->
 
-            <input type="text" placeholder="Name" required>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1670.753029743105!2d83.989074!3d28.224095!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x445c7d411efaebf3%3A0xb02e42f3d0c73733!2sSTUDY%20WAVE%20PVT%20LTD!5e1!3m2!1sen!2snp!4v1726917025185!5m2!1sen!2snp"
+              width="450"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
 
-            <span>Email</span>
-
-            <input type="email" placeholder="Email" required>
-
-            <span>Phone N.O.</span>
-
-            <input type="Number" placeholder="Number" required>
-
-            <span> Subject</span>
-
-            <input type="text" placeholder="Subject" required>
-
-            <span>Message</span>
-
-            <textarea placeholder="Message" required></textarea>
-
-            <button type="submit">SEND</button>
-
-        </form>
+            <p style="margin: 0">
+              <img src="./img/map-marker.png" style="width: 25px" /><span>
+              </span
+              >Chipledunga, Pokhara (next to NMB)
+            </p>
+          </div>
+          <br />
+          <br />
+          <br />
         </section>
+      </div>
+
+      <br />
+      <br />
+
+      <section class="page-form" id="page-form" style="padding-top: 50px">
+        <!-- <form class="contact-form">
+          <h2>Send Your Query</h2>
+
+          <span>Name</span>
+
+          <input type="text" placeholder="Name" required />
+
+          <span>Email</span>
+
+          <input type="email" placeholder="Email" required />
+
+          <span>Phone N.O.</span>
+
+          <input type="Number" placeholder="Number" required />
+
+          <span> Subject</span>
+
+          <input type="text" placeholder="Subject" required />
+
+          <span>Message</span>
+
+          <textarea placeholder="Message" required></textarea>
+
+          <button type="submit">SEND</button>
+        </form> -->
+        <div class="content"></div>
+        <div class="container">
+          <div
+            class="row align-items-stretch justify-content-center no-gutters"
+            style="display: flex; justify-content: center"
+          >
+            <div class="col-md-7">
+              <div class="form h-100 contact-wrap p-5">
+                <h3 class="text-center">Contact Us</h3>
+                <form class="mb-5" id="contactForm" name="contactForm">
+                  <div class="row">
+                    <div class="col-md-6 form-group mb-3">
+                      <label for="" class="col-form-label">Name *</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="name"
+                        id="name"
+                        placeholder="Your name"
+                      />
+                    </div>
+                    <div class="col-md-6 form-group mb-3">
+                      <label for="" class="col-form-label" style=""
+                        >Email
+                      </label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        name="email"
+                        id="email"
+                        placeholder="Your email"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 form-group mb-3">
+                      <label for="" class="col-form-label">Address </label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="address"
+                        id="address"
+                        placeholder="Your address"
+                      />
+                    </div>
+                    <div class="col-md-6 form-group mb-3">
+                      <label for="" class="col-form-label" style=""
+                        >Phone no. *</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="phone"
+                        id="phone"
+                        placeholder="Your phone number"
+                      />
+                    </div>
+                  </div>
+
+                  <!-- <div class="row">
+                    <div class="col-md-12 form-group mb-3">
+                      <label for="budget" class="col-form-label">Subject</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="subject"
+                        id="subject"
+                        placeholder="Your subject"
+                      />
+                    </div>
+                  </div> -->
+
+                  <div class="row mb-5">
+                    <div class="col-md-12 form-group mb-3">
+                      <label for="message" class="col-form-label"
+                        >Message *</label
+                      >
+                      <textarea
+                        class="form-control"
+                        name="message"
+                        id="message"
+                        cols="30"
+                        rows="4"
+                        placeholder="Write your message"
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div
+                    class="row justify-content-center"
+                    style="display: flex; justify-content: center"
+                  >
+                    <div class="col-md-5 form-group text-center">
+                      <input
+                        type="submit"
+                        value="Send Message"
+                        class="btn btn-block btn-primary rounded-0 py-2 px-4"
+                        style="
+                          background-color: #ffa616;
+                          border-radius: 5px;
+                          justify-self: center;
+                        "
+                      />
+                      <span class="submitting"></span>
+                    </div>
+                  </div>
+                </form>
+
+                <div id="form-message-warning mt-4"></div>
+                <!-- <div id="form-message-success">
+                  Your message was sent, thank you!
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </section>
- 
 
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/main.js"></script>
     <!-- Footer -->
     <footer class="footer">
-      <div class="footer-logo">
-        <img src="./img/logo.png" alt="Study Wave Logo"> <!-- Replace with your logo path -->
-       
+      <div class="footer-logoo">
+        <a
+          href="#page-top"
+          class="navbar-brand page-scroll"
+          style="float: none; font-size: inherit; padding: 0"
+          ><img src="./img/logo.svg" alt="Study Wave Logo"
+        /></a>
+        <!-- Replace with your logo path -->
       </div>
-      <hr class="vertical-line">
+      <hr class="vertical-line" />
 
       <div class="footer-section">
         <h3>Study Abroad</h3>
         <ul>
-          <a href="#" ><li>Services</li></a>
-          <a href="#" ><li>Pricing</li></a>
-          <a href="#" ><li>Test Preparation</li></a>
-         
+          <a
+            href="#services"
+            class="navbar-brand page-scroll"
+            style="float: none; font-size: inherit; padding: 0"
+            ><li>Services</li></a
+          >
+          <a
+            href="#prices"
+            class="navbar-brand page-scroll"
+            style="float: none; font-size: inherit; padding: 0"
+            ><li>Pricing</li></a
+          >
+          <a href="#"><li>Test Preparation</li></a>
         </ul>
       </div>
 
-      <hr class="vertical-line">
+      <hr class="vertical-line" />
 
       <div class="footer-section">
         <h3>Company</h3>
         <ul>
-          <a href="#" ><li>About Us</li></a>
-          <a href="#" ><li>Careers</li></a>
-          
-    </ul>
+          <a
+            href="#about"
+            class="navbar-brand page-scroll"
+            style="float: none; font-size: inherit; padding: 0"
+            ><li>About Us</li></a
+          >
+          <a href="#"><li>Careers</li></a>
+        </ul>
       </div>
 
-      <hr class="vertical-line">
+      <hr class="vertical-line" />
 
-  <div class="footer-contact">
-    <p> Email: studywave2@gmail.com</p>
-    <br>
-    <div class="social-icons">
-      
-      <a href="https://www.facebook.com/people/STUDY-WAVE/61560049887297/?_rdr"> <img src="./img/_x30_1._Facebook.svg"> </a>
-      <a href="href="https://wa.me/9856019724" target=""><img src="./img/whatsapp.svg"></a>
-      <a href="https://www.instagram.com/studywave123/"><img src="./img/insta.svg"></a>
-    </div>
-  </div>
-</footer>
-<br>
+      <div class="footer-contact">
+        <p>
+          <a href="mailto: info.studywave2@gmail.com" style="color: #201d1d"
+            >Email: info.studywave2@gmail.com</a
+          >
+        </p>
+        <br />
+        <div
+          class="social-icons"
+          style="display: flex; justify-content: center"
+        >
+          <a
+            href="https://www.facebook.com/people/STUDY-WAVE/61560049887297/?_rdr"
+            target="_blank"
+          >
+            <img src="./img/_x30_1._Facebook.svg" />
+          </a>
+          <a href="https://wa.me/9856019724" target="_blank"
+            ><img src="./img/whatsapp.svg"
+          /></a>
+          <a href="https://www.instagram.com/studywave123/" target="_blank"
+            ><img src="./img/insta.svg"
+          /></a>
+          <a href="https://www.tiktok.com/@studywavepokhara2" target="_blank"
+            ><img src="./img/tiktok.svg"
+          /></a>
+          <!-- tiktok
 
-<hr class="stragiht-line" style="border: 0.5px solid #201d1d;">
+          https://www.tiktok.com/@studywavepokhara2
+           -->
+        </div>
+        <br />
+        <p style="text-align: center">Phone no: +977 9856019724</p>
+      </div>
+    </footer>
+    <!-- <br /> -->
 
-<div class="footer-copyright">
-  ©2021 Study Wave
-</div>
+    <hr class="stragiht-line" style="border: 0.5px solid #201d1d" />
 
-<br>
+    <div class="footer-copyright">©2021 Study Wave</div>
 
-
+    <br />
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
