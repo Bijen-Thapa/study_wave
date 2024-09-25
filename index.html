@@ -13,7 +13,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom CSS -->
-    <link href="css/grayscale.css" rel="stylesheet" />
+    <link href="css/studywave.css" rel="stylesheet" />
 
     <!-- Custom Fonts -->
     <link
@@ -34,13 +34,6 @@
 
     <!-- Favicon-->
     <link rel="shortcut icon" href="./img/logo.png" type="image/png" />
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
@@ -71,6 +64,7 @@
 
       .about-page-section {
         text-align: left;
+        text-wrap: balance;
       }
 
       .page-map {
@@ -121,6 +115,18 @@
         padding-bottom: 50px;
       }
 
+      @media (max-width: 768px) {
+        .footer {
+          display: block;
+          text-align: center;
+        }
+        .vertical-line {
+          display: none;
+        }
+        .about-page-section {
+          text-align: center;
+        }
+      }
       .footer-logo {
         display: flex;
         align-items: center;
@@ -156,7 +162,7 @@
       }
 
       .footer-section ul li a:hover {
-        color: #ffa616; /* Optional: Changes color when you hover over the link */
+        color: #ffa616;
       }
       .footer-contact {
         text-align: right;
@@ -166,13 +172,13 @@
         margin: 5px 0;
       }
       .footer-contact .social-icons img {
-        width: 20px; /* Adjust as per your icon's dimensions */
+        width: 20px;
         margin-right: 10px;
         margin-right: 40px;
       }
 
       .footer-contact .social-icons a:last-child img {
-        margin-right: 0; /* Removes extra space after the last image */
+        margin-right: 0;
       }
 
       .footer-copyright {
@@ -188,6 +194,14 @@
         margin-bottom: 0.5em;
         margin-left: 6em;
         margin-right: 6em;
+        border-width: 10px;
+      }
+      .stragiht-line-nav {
+        color: black;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        /* margin-left: 6em;
+        margin-right: 6em; */
         border-width: 10px;
       }
 
@@ -303,22 +317,12 @@
                 The future you think is closer then you think! <br />Join Study
                 Wave family for your upcoming advantures...
               </p>
-              <!-- <div style="align-items: start">
-                <h4 style="text-transform: none">
-                  Our Vision:
-                  <p style="font-weight: 10">
-                    “To embark and enhance educational institution by providing
-                    transformative guidance along with innovative solution.”
-                  </p>
-                </h4>
-              </div> -->
 
               <a
                 href="#page-form"
                 class="navbar-brand page-scroll"
                 style="float: none; font-size: inherit; padding: 0"
               >
-                <!-- <i class="fa fa-angle-double-down animated"></i> -->
                 <button
                   type="button"
                   class="btn btn-secondary btn-lg"
@@ -328,11 +332,7 @@
                 </button>
               </a>
             </div>
-            <div
-              style="display: flex; flex-direction: column; margin-left: -110px"
-              id="home_div2"
-              class="home_div2"
-            >
+            <div style="" id="home_div2" class="home_div2">
               <h1
                 style="
                   font-family: 'Dancing Script', cursive;
@@ -494,175 +494,6 @@
           </div>
         </div>
       </div>
-      <!-- <div class="row">
-        <div class="col-lg-8 col-lg-offset-2" style="text-align: left">
-          <div
-            style="
-              box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
-                rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-                rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-              display: flex;
-              flex-direction: column;
-              justify-items: center;
-              align-items: center;
-              padding: 5rem;
-              background-color: #e8e8e8;
-              border: 2rem;
-              border-color: black;
-            "
-          >
-            <div style="background-color: aqua">
-              <img
-                src="./img/school.png"
-                alt=""
-                style="width: 5rem; background-color: aqua"
-              />
-            </div>
-            <h3>IELTS/PTE</h3>
-            <p>
-              Career counseling focuses on your current skills and helps you....
-            </p>
-          </div>
-          <div
-            style="
-              box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
-                rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-                rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-              display: flex;
-              flex-direction: column;
-              justify-items: center;
-              align-items: center;
-              margin: 2rem;
-              background-color: #e8e8e8;
-              border: 2rem;
-              border-color: black;
-            "
-          >
-            <div style="background-color: aqua">
-              <img
-                src="./img/school.png"
-                alt=""
-                style="width: 5rem; background-color: aqua"
-              />
-            </div>
-            <h3>IELTS/PTE</h3>
-            <p>
-              Career counseling focuses on your current skills and helps you....
-            </p>
-          </div>
-          <div
-            style="
-              box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
-                rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-                rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-              display: flex;
-              flex-direction: column;
-              justify-items: center;
-              align-items: center;
-              padding: 5rem;
-            "
-          >
-            <img src="./img/school.png" alt="" style="width: 5rem" />
-            <h3>IELTS/PTE</h3>
-            <p>
-              Career counseling focuses on your current skills and helps you....
-            </p>
-          </div>
-          <h2>About Grayscale</h2><div class="row">
-        <div class="col-lg-8 col-lg-offset-2" style="text-align: left">
-          <div
-            style="
-              box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
-                rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-                rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-              display: flex;
-              flex-direction: column;
-              justify-items: center;
-              align-items: center;
-              padding: 5rem;
-              background-color: #e8e8e8;
-              border: 2rem;
-              border-color: black;
-            "
-          >
-            <div style="background-color: aqua">
-              <img
-                src="./img/school.png"
-                alt=""
-                style="width: 5rem; background-color: aqua"
-              />
-            </div>
-            <h3>IELTS/PTE</h3>
-            <p>
-              Career counseling focuses on your current skills and helps you....
-            </p>
-          </div>
-          <div
-            style="
-              box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
-                rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-                rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-              display: flex;
-              flex-direction: column;
-              justify-items: center;
-              align-items: center;
-              margin: 2rem;
-              background-color: #e8e8e8;
-              border: 2rem;
-              border-color: black;
-            "
-          >
-            <div style="background-color: aqua">
-              <img
-                src="./img/school.png"
-                alt=""
-                style="width: 5rem; background-color: aqua"
-              />
-            </div>
-            <h3>IELTS/PTE</h3>
-            <p>
-              Career counseling focuses on your current skills and helps you....
-            </p>
-          </div>
-          <div
-            style="
-              box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
-                rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-                rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-              display: flex;
-              flex-direction: column;
-              justify-items: center;
-              align-items: center;
-              padding: 5rem;
-            "
-          >
-            <img src="./img/school.png" alt="" style="width: 5rem" />
-            <h3>IELTS/PTE</h3>
-            <p>
-              Career counseling focuses on your current skills and helps you....
-            </p>
-          </div>
-          <h2>About Grayscale</h2>
-          <p>
-            Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It
-            can be yours right now, simply download the template on
-            <a href="http://startbootstrap.com/template-overviews/grayscale/"
-              >the preview page</a
-            >. The theme is open source, and you can use it for any purpose,
-            personal or commercial.
-          </p>
-          <p>
-            This theme features stock photos by
-            <a href="http://gratisography.com/">Gratisography</a> along with a
-            custom Google Maps skin courtesy of
-            <a href="http://snazzymaps.com/">Snazzy Maps</a>.
-          </p>
-          <p>
-            Grayscale includes full HTML, CSS, and custom JavaScript files along
-            with LESS files for easy customization.
-          </p>
-        </div>
-      </div> -->
     </section>
 
     <!-- abroad Section -->
@@ -673,7 +504,7 @@
           style="
             display: flex;
             justify-content: center;
-            padding: 150px 0;
+            padding: 90px 0;
             background-color: #064083;
           "
         >
@@ -707,44 +538,52 @@
             </p>
 
             <div class="container_scrollaaa" style="">
-              <div class="content_scrollaaa">
-                <img src="./img/usa.svg" alt="" />
+              <div class="content_scrollaaa" onclick="">
+                <a href="#page-form" class="page-scroll"
+                  ><img src="./img/usa.svg" alt=""
+                /></a>
               </div>
               <div class="content_scrollaaa">
-                <img src="./img/uk.svg" alt="" />
+                <a href="#page-form" class="page-scroll"
+                  ><img src="./img/uk.svg" alt=""
+                /></a>
               </div>
               <div class="content_scrollaaa">
-                <img src="./img/canada.svg" alt="" />
+                <a href="#page-form" class="page-scroll"
+                  ><img src="./img/canada.svg" alt=""
+                /></a>
               </div>
               <div class="content_scrollaaa">
-                <img src="./img/Australia.svg" alt="" />
+                <a href="#page-form" class="page-scroll"
+                  ><img src="./img/Australia.svg" alt=""
+                /></a>
               </div>
               <div class="content_scrollaaa">
-                <img src="./img/newzealand.svg" alt="" />
+                <a href="#page-form" class="page-scroll"
+                  ><img src="./img/newzealand.svg" alt=""
+                /></a>
               </div>
               <div class="content_scrollaaa">
-                <img src="./img/ireland.svg" alt="" />
+                <a href="#page-form" class="page-scroll"
+                  ><img src="./img/ireland.svg" alt=""
+                /></a>
               </div>
               <div class="content_scrollaaa">
-                <img src="./img/dubai.svg" alt="" />
+                <a href="#page-form" class="page-scroll"
+                  ><img src="./img/dubai.svg" alt=""
+                /></a>
               </div>
               <div class="content_scrollaaa">
-                <img src="./img/india.svg" alt="" />
+                <a href="#page-form" class="page-scroll">
+                  <img src="./img/india.svg" alt="" />
+                </a>
               </div>
               <div class="content_scrollaaa">
-                <img src="./img/korea.svg" alt="" />
+                <a href="#page-form" class="page-scroll">
+                  <img src="./img/korea.svg" alt="" />
+                </a>
               </div>
             </div>
-            <!-- <h2>Download Grayscale</h2>
-            <p>
-              You can download Grayscale for free on the preview page at Start
-              Bootstrap.
-            </p>
-            <a
-              href="http://startbootstrap.com/template-overviews/grayscale/"
-              class="btn btn-default btn-lg"
-              >Visit Download Page</a
-            > -->
           </div>
         </div>
       </div>
@@ -766,35 +605,29 @@
             padding-top: 80px;
           "
         >
-          <h1 style="text-transform: none; margin-left: 350px">Class Prices</h1>
+          <h1 style="" class="price_h1">Class Prices</h1>
 
-          <div
-            style="
-              display: grid;
-              grid-template-columns: repeat(3, 1fr);
-              grid-template-rows: 1fr;
-              grid-column-gap: 0px;
-              grid-row-gap: 0px;
-              align-items: center;
-            "
-          >
-            <img
-              src="./img/ielts.svg"
-              alt=""
-              style="grid-area: 1 / 1 / 3 / 2; margin-right: -126px"
-            />
+          <div style="" class="prices_grid">
+            <a
+              href="#page-form"
+              class="page-scroll"
+              style="grid-area: 1 / 1 / 3 / 2"
+              ><img src="./img/ielts.svg" alt=""
+            /></a>
 
-            <img
-              src="./img/pte.svg"
-              alt=""
-              style="grid-area: 1 / 2 / 2 / 3; margin-bottom: -50px"
-            />
-
-            <img
-              src="./img/toefl.svg"
-              alt=""
+            <a
+              href="#page-form"
+              class="page-scroll"
+              style="grid-area: 1 / 2 / 2 / 3"
+            >
+              <img src="./img/pte.svg" alt="" />
+            </a>
+            <a
+              href="#page-form"
+              class="page-scroll"
               style="grid-area: 2 / 2 / 3 / 3"
-            />
+              ><img src="./img/toefl.svg" alt=""
+            /></a>
           </div>
         </div>
       </div>
@@ -802,20 +635,15 @@
 
     <section class="about" id="about" style="padding: 75px 0">
       <h1 style="text-align: center">About Us</h1>
-      <div style="display: flex; padding: 0 150px">
+      <div style="" class="about_content">
         <section class="page-about" id="page-about">
           <div class="about-page" id="about-page">
-            <!--  class="about-page-img" id="about-page-img" -->
-
-            <div>
+            <div class="about_logo">
               <img src="./img/about_logo.svg" />
             </div>
             <br />
-            <!-- <div class="about-img" id="about-img">
-                       
-                   </div> -->
             <div class="about-page-section">
-              <p style="text-wrap: balance">
+              <p style="">
                 Study Wave Private Limited was established with the goal of
                 providing students who wished to continue their future studies
                 abroad with high-quality advice and moral support. With over 20
@@ -840,21 +668,9 @@
         <br />
 
         <section class="page-map" id="page-map" style="text-align: start">
-          <!-- <h1 style="text-transform: none">Find Us...</h1> -->
           <br />
 
           <div class="map-container">
-            <!-- <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d835.3764976668888!2d83.98836356958196!3d28.22409719849317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x445c7d411efaebf3%3A0xb02e42f3d0c73733!2sSTUDY%20WAVE%20PVT%20LTD!5e1!3m2!1sen!2snp!4v1724789958072!5m2!1sen!2snp"
-            width="700"
-            height="300"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            >
-          </iframe> -->
-
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1670.753029743105!2d83.989074!3d28.224095!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x445c7d411efaebf3%3A0xb02e42f3d0c73733!2sSTUDY%20WAVE%20PVT%20LTD!5e1!3m2!1sen!2snp!4v1726917025185!5m2!1sen!2snp"
               width="450"
@@ -865,47 +681,18 @@
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
 
-            <p style="margin: 0">
-              <img src="./img/map-marker.png" style="width: 25px" /><span>
+            <p style="">
+              <img src="./img/map-marker.png" style="width: 20px" /><span>
               </span
               >Chipledunga, Pokhara (next to NMB)
             </p>
           </div>
-          <br />
-          <br />
-          <br />
         </section>
       </div>
 
-      <br />
-      <br />
+      <hr style=""/ >
 
-      <section class="page-form" id="page-form" style="padding-top: 50px">
-        <!-- <form class="contact-form">
-          <h2>Send Your Query</h2>
-
-          <span>Name</span>
-
-          <input type="text" placeholder="Name" required />
-
-          <span>Email</span>
-
-          <input type="email" placeholder="Email" required />
-
-          <span>Phone N.O.</span>
-
-          <input type="Number" placeholder="Number" required />
-
-          <span> Subject</span>
-
-          <input type="text" placeholder="Subject" required />
-
-          <span>Message</span>
-
-          <textarea placeholder="Message" required></textarea>
-
-          <button type="submit">SEND</button>
-        </form> -->
+      <section class="page-form" id="page-form" style="padding-top: 80px">
         <div class="content"></div>
         <div class="container">
           <div
@@ -915,7 +702,24 @@
             <div class="col-md-7">
               <div class="form h-100 contact-wrap p-5">
                 <h3 class="text-center">Contact Us</h3>
-                <form class="mb-5" id="contactForm" name="contactForm">
+                <form
+                  class="mb-5"
+                  id="contactForm"
+                  name="contactForm"
+                  action="https://api.web3forms.com/submit"
+                  method="POST"
+                >
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value="084d4584-02d7-486a-98b0-d6c7ed99fd24"
+                  />
+                  <input
+                    type="checkbox"
+                    name="botcheck"
+                    class="hidden"
+                    style="display: none"
+                  />
                   <div class="row">
                     <div class="col-md-6 form-group mb-3">
                       <label for="" class="col-form-label">Name *</label>
@@ -925,6 +729,7 @@
                         name="name"
                         id="name"
                         placeholder="Your name"
+                        required
                       />
                     </div>
                     <div class="col-md-6 form-group mb-3">
@@ -957,26 +762,15 @@
                       >
                       <input
                         type="text"
+                        pattern="[98][0-9]{9}"
                         class="form-control"
                         name="phone"
                         id="phone"
                         placeholder="Your phone number"
+                        required
                       />
                     </div>
                   </div>
-
-                  <!-- <div class="row">
-                    <div class="col-md-12 form-group mb-3">
-                      <label for="budget" class="col-form-label">Subject</label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        name="subject"
-                        id="subject"
-                        placeholder="Your subject"
-                      />
-                    </div>
-                  </div> -->
 
                   <div class="row mb-5">
                     <div class="col-md-12 form-group mb-3">
@@ -990,6 +784,7 @@
                         cols="30"
                         rows="4"
                         placeholder="Write your message"
+                        required
                       ></textarea>
                     </div>
                   </div>
@@ -1014,9 +809,6 @@
                 </form>
 
                 <div id="form-message-warning mt-4"></div>
-                <!-- <div id="form-message-success">
-                  Your message was sent, thank you!
-                </div> -->
               </div>
             </div>
           </div>
@@ -1032,15 +824,12 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="footer-logoo">
-        <a
-          href="#page-top"
-          class="navbar-brand page-scroll"
-          style="float: none; font-size: inherit; padding: 0"
+        <a href="#page-top" class="navbar-brand page-scroll" style=""
           ><img src="./img/logo.svg" alt="Study Wave Logo"
         /></a>
-        <!-- Replace with your logo path -->
       </div>
       <hr class="vertical-line" />
+      <hr class="stragiht-line-nav" style="border: 0.5px solid #201d1d" />
 
       <div class="footer-section">
         <h3>Study Abroad</h3>
@@ -1062,6 +851,7 @@
       </div>
 
       <hr class="vertical-line" />
+      <hr class="stragiht-line-nav" style="border: 0.5px solid #201d1d" />
 
       <div class="footer-section">
         <h3>Company</h3>
@@ -1077,6 +867,7 @@
       </div>
 
       <hr class="vertical-line" />
+      <hr class="stragiht-line-nav" style="border: 0.5px solid #201d1d" />
 
       <div class="footer-contact">
         <p>
@@ -1137,6 +928,6 @@
     ></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
+    <script src="js/studywave.js"></script>
   </body>
 </html>
